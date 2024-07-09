@@ -1,0 +1,24 @@
+.slick-slider .slick-list {
+    max-height: 530px;
+}
+.slick-dots{
+    display: flex !important;
+    justify-content: end;
+}
+.slick-dots li button{
+    background: #888888;
+    border-radius: 50%;
+}
+.slick-dots li.slick-active button{
+    background: #fff;
+}
+
+.slick-dots li button:before{
+    display: none;
+}
+
+@media (max-width:768px) {
+    .slick-slider .slick-list{
+        max-height: 330px;
+    }    
+}
